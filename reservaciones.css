@@ -1,0 +1,251 @@
+body {
+    font-family: Arial, sans-serif cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(to right, rgba(20, 20, 20, 1) 60%, rgba(255, 0, 0, 1) 100%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 100px;
+    animation:rotateIn 3s infinite;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover{
+    background-color: #e60000;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+nav ul li a.reservaciones {
+    background-color: #e60000;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a.reservaciones:hover{
+    background-color: #000;
+    transition: 0.5s;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #b50000;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-row label {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin: 0 5px;
+}
+
+.form-row img {
+    margin-right: 10px;
+    max-width: 20px;
+}
+
+.form-group img{
+    width: 20px;
+}
+
+input, select, textarea {
+    flex-grow: 1;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+    width: calc(100% - 30px); 
+}
+
+.submit-button {
+    background-color: #b50000;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #990000;
+}
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    flex: 1;
+    max-width: 25%;
+    text-align: center;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.social-icons img {
+    margin-top: 10px;
+    width: 10%;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.footer-links {
+    flex: 1;
+    max-width: 25%;
+    text-align: left;
+}
+
+.footer-links h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 5px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-contact {
+    flex: 1;
+    max-width: 25%;
+    text-align: left;
+}
+
+.footer-contact h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+.footer-contact img {
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 20px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.footer-bottom a {
+    color: #e60000;
+    text-decoration: none;
+}
+
+.footer-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-buttons .informes-pedidos {
+    background-color: #e60000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    animation:bounceOut 5s infinite;
+}
+
+.footer-buttons .whatsapp img {
+    width: 40px;
+    height: 40px;
+    animation:bounceOut 5s infinite;
+}

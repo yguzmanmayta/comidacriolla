@@ -1,0 +1,238 @@
+body {
+  font-family: Arial, sans-serif cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+header {
+  background: linear-gradient(to right, rgba(20, 20, 20, 1) 60%, rgba(255, 0, 0, 1) 100%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 100px;
+  animation:rotateIn 3s infinite;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover{
+  background-color: #e60000;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+nav ul li a.reservaciones {
+  background-color: #e60000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.map {
+  flex: 1;
+  height: 500px;
+  margin-right: 40px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.form-container {
+  flex: 1;
+  background: linear-gradient(to right, #ffa500, #ff6b6b);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  text-align: center;
+  font-family: "Lucida Calligraphy", cursive;
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+form textarea {
+  grid-column: 1 / -1;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+  position: relative;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  flex: 1;
+  max-width: 25%;
+  text-align: center;
+}
+
+.footer-logo img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+.footer-logo p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.social-iconos img {
+  margin-top: 10px;
+  width: 10%;
+}
+
+.social-iconos a {
+  margin-right: 10px;
+}
+
+.footer-links {
+  flex: 1;
+  max-width: 25%;
+  text-align: left;
+}
+
+.footer-links h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 5px;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-contact {
+  flex: 1;
+  max-width: 25%;
+  text-align: left;
+}
+
+.footer-contact h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-contact p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+.footer-contact img {
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 20px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.footer-bottom a {
+  color: #e60000;
+  text-decoration: none;
+}
+
+.footer-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.footer-buttons .informes-pedidos {
+  background-color: #e60000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  animation:bounceOut 5s infinite;
+}
+
+.footer-buttons .whatsapp img {
+  width: 40px;
+  height: 40px;
+  animation:bounceOut 5s infinite;
+}

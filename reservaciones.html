@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Mesa</title>
+    <link rel="stylesheet" href="reservaciones.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
+    <link rel="icon" href="img/Proyecto Quitar fondo.png">
+
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/Proyecto Quitar fondo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="doc/CARTA_SABORES_PERUANOS_2024.pdf" target="_blank">NUESTRA CARTA</a></li>
+                <li><a href="index.html">TE BRINDAMOS</a></li>
+                <li><a href="galeria.html">GALERÍA</a></li>
+                <li><a href="nuestrahistoria.html">NUESTRA HISTORIA</a></li>
+                <li><a href="contacto.html">CONTÁCTANOS</a></li>
+                <li><a href="reservaciones.html" class="reservaciones">RESERVACIONES</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Reserve una mesa en línea!</h2>
+        <form>
+            <div class="form-row">
+                <label for="fecha"><img src="img/calendario.png" alt="Fecha"> <input type="date" id="fecha" name="fecha"></label>
+                <label for="hora"><img src="img/reloj.png" alt="Hora"> <input type="time" id="hora" name="hora"></label>
+            </div>
+            <div class="form-row">
+                <label for="nombre"><img src="img/trabajo-en-equipo.png" alt="Nombre"> <input type="text" id="nombre" name="nombre" placeholder="Nombre"></label>
+                <label for="celular"><img src="img/llamada-de-telefono-inteligente.png" alt="Celular"> <input type="tel" id="celular" name="celular" placeholder="Celular"></label>
+            </div>
+            <div class="form-row">
+                <label for="personas"><img src="img/trabajo-en-equipo.png" alt="Cantidad de personas"> <select id="personas" name="personas">
+                    <option value="" disabled selected>Cantidad de personas</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select></label>
+                <label for="restaurante"><img src="img/food-and-restaurant.png" alt="Restaurante"> <select id="restaurante" name="restaurante">
+                    <option value="" disabled selected>Restaurante Miraflores</option>
+                    <option value="rest1">Restaurante la Molina</option>
+                </select></label>
+            </div>
+            <div class="form-group">
+                <label for="mensaje"><img src="img/mensaje.png" alt="Mensaje"> <textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea></label>
+            </div>
+            <button type="submit" class="submit-button">Solicitar Mesa</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="img/Proyecto Quitar fondo.png" alt="Logo Sabores Peruanos">
+                <p>Sabores Peruanos es más que un restaurante, es un hogar y lo demostramos en la calidez de nuestra atención en cada visita a esta casa.</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com"><img src="img/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com"><img src="img/instagram.png" alt="Instagram"></a>
+                    <a href="https://www.twitter.com"><img src="img/twitter.png" alt="Twitter"></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Mapa del Sitio</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nuestrahistoria.html">Nuestra historia</a></li>
+                    <li><a href="doc/CARTA_SABORES_PERUANOS_2024.pdf">Nuestra carta</a></li>
+                    <li><a href="reservaciones.html">Reservaciones</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Casa Miraflores</h3>
+                <p><img src="img/placeholder.png" alt="Mapa">Av Alfredo Benavides 2392<br>Miraflores, Lima, Perú</p>
+                <p><img src="img/telefono.png" alt="Teléfono"> 01 449 1395</p>
+                <p><img src="img/circle.png" alt="Email"> miraflores@saboresperuanos.pe</p>
+                <p><img src="img/smartphone.png" alt="WhatsApp"> +51 949 735 969</p>
+            </div>
+            <div class="footer-contact">
+                <h3>Casa La Molina</h3>
+                <p><img src="img/placeholder.png" alt="Mapa">Av Javier Prado Este 6326<br>La Molina, Lima, Perú</p>
+                <p><img src="img/telefono.png" alt="Teléfono"> 01 348 7802</p>
+                <p><img src="img/circle.png" alt="Email"> molina@saboresperuanos.pe</p>
+                <p><img src="img/smartphone.png" alt="WhatsApp"> +51 959 865 977</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 SABORES PERUANOS | DESARROLLADO POR JP</p>
+        </div>
+        <div class="footer-buttons">
+            <a href="https://www.whatsapp.com" class="informes-pedidos">Informes y pedidos</a>
+            <a href="https://www.whatsapp.com" class="whatsapp"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
